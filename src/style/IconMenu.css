@@ -1,31 +1,68 @@
+.Icon-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Icon-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.Icon-container li {
+    list-style: none;
+}
+
+.Icon-container-item {
+    margin: 20px;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
 .flightIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
-    background-position: 0 -55px ;
+    background-position: 0 6px;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fd0;
-    /* transition: .3s linear; */
-
- 
+    border:1px solid #ffffff;
+    transition: .3s linear; 
 }
+
+.flightIcon:hover {
+    background-position: 0 -55px;
+    border:1px solid #f8d434; 
+}
+
 .hotelsIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position: -178px 6px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
-    
-   
+    border:1px solid #ffffff;
+    transition: .3s linear; 
 }
+
+.hotelsIcon:hover{
+    background-position: -178px -57px;
+    border:1px solid #f8d434;
+}
+
 .busTicketIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position: -486px 6px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear; 
+}
+
+.busTicketIcon:hover{
+    background-position: -486px -56px;
+    border:1px solid #f8d434;
 }
 
 .retiringIcon{
@@ -34,39 +71,74 @@
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
 }
+
+.retiringIcon:hover {
+    background-position: -120px -56px;
+    border:1px solid #f8d434;
+    
+}
+
 .loungeIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position: -61px 5px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
 }
+
+.loungeIcon:hover{
+    background-position: -61px -56px ;
+    border:1px solid #f8d434;
+}
+
 .tourPackageIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position: -901px 4px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
 }
+
+.tourPackageIcon:hover{
+    background-position: -901px -56px;
+    border:1px solid #f8d434;
+}
+
 .touristIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position: -956px 6px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
 }
+
+.touristIcon:hover{
+    background-position: -956px -56px;
+    border:1px solid #f8d434;
+}
+
 .buddhistTrainIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position: -787px 3px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
+}
+
+.buddhistTrainIcon:hover{
+    background-position: -787px -56px;
+    border:1px solid #f8d434;
 }
 
 .maharajasIcon{
@@ -75,7 +147,13 @@
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
+}
+
+.maharajasIcon:hover{
+    background-position: -609px -56px;
+    border:1px solid #f8d434;
 }
 
 .goldenChariotIcon{
@@ -84,34 +162,29 @@
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
+    border:1px solid #ffffff;
+    transition: .3s linear;
 }
+
+.goldenChariotIcon:hover{
+    background-position: -728px -56px;
+    border:1px solid #f8d434;
+}
+
 .CruiseIcon{
     background-image: url("https://www.air.irctc.co.in/assets/img/nav-sprite.webp");
     background-position:  -426px 5px ;
     height: 50px;
     width: 60px;
     border-radius: 50%;
-    border:1px solid #fff;
-    
+    border:1px solid #ffffff;
+    transition: .3s linear;
 }
 
-
-
-.container{
-    /* background-size: 400% 400%; */
-    /* position: relative; */
-    /* z-index: 100; */
-    /* top:280px;  */
-    /* padding:10px 0; */
-    /* background: linear-gradient(-45deg,#332b67,#28558e,#332b67,#28558e); */
-    /* clear:both;
-    width:100%; */
-    /* box-sizing: border-box; */
-    /* margin-right: auto;
-    margin-left:auto; */
+.CruiseIcon:hover{
+    background-position:  -426px -56px;
+    border:1px solid #f8d434;
 }
-
 
 .HomeSmallMenu{
     position: relative;
@@ -121,9 +194,11 @@
     background: linear-gradient(-45deg,#332b67,#28558e,#332b67,#28558e);
     
 }
+
 .container .navList{
     list-style: none;
 }
+
 .nav-link{
     cursor: pointer;
     
@@ -139,10 +214,10 @@
     display: flex;
     justify-content: space;
 }
-.spanclass{
+/* .spanclass{
     color:#fd0;
    
-}
+} */
 
 .items{
     text-align: center;

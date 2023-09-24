@@ -17,13 +17,13 @@ const MainSection = () => {
         id="carouselExampleControls" className="carousel slide c-1" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={banner1} className="d-block w-100" alt="..." />
+            <img src={banner1} className="d-block w-100" alt="banner1" />
           </div>
           <div className="carousel-item">
-            <img src={banner2} className="d-block w-100" alt="..." />
+            <img src={banner2} className="d-block w-100" alt="banner2" />
           </div>
           <div className="carousel-item">
-            <img src={banner3} className="d-block w-100" alt="..." />
+            <img src={banner3} className="d-block w-100" alt="banner3" />
           </div>
         </div>
         
@@ -63,9 +63,9 @@ const MainSection = () => {
          </div> */}
          <div className="BgAdv">
             <div className="Adv">
-                  <img src={home1} alt="Image 1" className="img-fluid" />
-                  <img src={home2} alt="Image 2" className="img-fluid" />
-                  <img src={home3} alt="Image 3" className="img-fluid" /> 
+                  <img src={home1} alt="Not found" className="img-fluid" />
+                  <img src={home2} alt="Not found" className="img-fluid" />
+                  <img src={home3} alt="Not found" className="img-fluid" /> 
             </div>
          </div>
           
