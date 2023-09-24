@@ -9,10 +9,80 @@ import "../style/MainSection.css";
 
 
 
+
 const MainSection = () => {
   return (
     <>
-      <div className="caraouselSection">
+    {/* <----------------------seacrchbox section-----------------> */}
+    <div className="container-fluid ml-auto mr-auto col-8 FullSrchBox">
+      <div className="row">
+        <div class="col">
+          <label>One way</label>
+        </div>
+        <div class="col">
+          <label>Round Trip</label>
+        </div>
+        <div class="col">
+          <label>Multicity</label>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="option1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="option1">
+                  Defence Fare
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="option2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="option2">
+                  Govt Employee
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col text-right">
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </button>
+            <div class="dropdown-menu mainS" style={{    background: "#332b67" }}aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item D" href="#">
+                Reschedule
+              </a>
+              <a class="dropdown-item D" href="#">
+                Credit Shell
+              </a>
+              <a class="dropdown-item" href="#">
+                Web Check
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row"></div>
+    </div>
+    {/* <---------------carousel-section-------------> */}
+    <div className="caraouselSection">
       <div
         id="carouselExampleControls" className="carousel slide c-1" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -48,6 +118,8 @@ const MainSection = () => {
        
       </div>
       </div>
+      
+    
       {/* <div className="rounded  p-4 d-flex justify-content-center i-1">
             <div className="row">
                 <div className="col-md-4 ">

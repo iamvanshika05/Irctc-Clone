@@ -1,4 +1,4 @@
-.faq{
+/* .faq{
     background: #f2f2f2;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -14,5 +14,82 @@
 }
 .BBg{
     
-}
+} */
+.faq{
+    background: #f2f2f2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .cont{
+    width: 100%;
+      padding-right: 200px;
+      padding-left: 200px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .faq .bg{
+    border-radius: 10px;
+    box-shadow: 0 3px 30px 0 rgba(0,0,0,.1);
+    background: #fff;
+    padding: 10px 25px 25px;
+    width:100%;
+  }
+  
+  .row{
+    display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  .text-centre{
+    text-align: center;
+  }
+
+  .col-12{
+    flex: 0 0 100%;
+      max-width: 100%;
+      -ms-flex: 0;
+  }
+  .col-12{
+    position:relative;
+    padding-right: 15px;
+    padding-left: 15px;
+   width:100%;
+  }
+  
+  
+  /* .col-md-6 {
+    display: flex;
+    position: relative;
+      width: 100%;
+      padding-left: 20px;
+  } */
+  .accordian{
+    margin-bottom: 15px;
+      margin-top: 7px;
+     
+  }
+  @media (min-width: 768px){
+    .col-md-6{
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+  }
+  
+  
+
+  @media (min-width: 768px){
+    .container {
+           max-width: 720px;
+    }
+  }
+
+  
+  
+ 
+
+ 
+   
+  
 

@@ -1,6 +1,7 @@
+/* --------------------carosel section css--------------------- */
 .caraouselSection{
     position: relative;
-    z-index: 0;
+    z-index: -1;
      top:-72px;
 }
 /* .carousel .carousel-inner{
@@ -21,6 +22,7 @@
     left: 10%;
     list-style: none;
 } */
+/* --------------------add section css--------------------- */
 .BgAdv{
     position:relative;
     z-index:4;
@@ -62,5 +64,28 @@
     
 
 
+/*------------ search box section css ------------*/
+.mainS {
+   
+    float: left;
+    font-size: 1rem;
+    text-align: left;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
 
+.dropdown-item .D{
+    color:white;
+    transition: .2s ease-in;
+    
+}
+.FullSrchBox {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    border-radius: 8px;
+    background: #fff;
+    top: 150px;
+    position: absolute;
+    left:15%;
+    
+}
 

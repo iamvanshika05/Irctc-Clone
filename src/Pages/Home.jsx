@@ -1,16 +1,19 @@
 import React from 'react'
-import Navbar from '../Components/Navbar';
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainSection from './MainSection';
 import IconMenu from '../Components/IconMenu'
-import { Faq } from './Faq';
+import Faq from "../Pages/Faq"
+import Navbar2 from "../Components/Navbar2"
+
 
 
 function Home() {
   return (
     <BrowserRouter>
-       <Navbar />
+       {/* <Navbar /> */}
+       <Navbar2 />
          {/* <Routes>
            <Route path='/' element={<MainSection/>}/>
            <Route path="/login" element={<Login />}/>
@@ -18,6 +21,7 @@ function Home() {
          <MainSection />
          <IconMenu/>
          <Faq />
+        
   
     </BrowserRouter>
   )
